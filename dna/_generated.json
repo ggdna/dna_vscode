@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "layers": [
+    {
+      "name": "base",
+      "package": "helix",
+      "ecosystem": null,
+      "resolvedVersion": "1.0.1",
+      "via": null,
+      "hash": "0x705e486e88a93125"
+    },
+    {
+      "name": "self",
+      "package": null,
+      "ecosystem": null,
+      "resolvedVersion": null,
+      "via": null,
+      "hash": "0x388c565943d37cae"
+    }
+  ],
+  "claude": {
+    "claudeMdInclude": null
+  },
+  "baseVersion": "1.0.1",
+  "baseHash": "0x705e486e88a93125",
+  "instances": [
+    {
+      "path": ".claude/skills/vscode/SKILL.md",
+      "hash": "0xa331cf3abdbd1c7b"
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "hash": "0x42dbd078830bdf05"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "hash": "0x32f5972239aa0a78"
+    },
+    {
+      "path": "doc/guides/vscode-guide.md",
+      "hash": "0x6776b27c7cbedb98"
+    },
+    {
+      "path": "doc/hello_world.md",
+      "hash": "0x0903f7fc5224f6f1"
+    }
+  ]
+}
