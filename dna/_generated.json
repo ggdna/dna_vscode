@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x388c565943d37cae"
+      "hash": "0xa88376a88c6618fa"
     }
   ],
   "claude": {
@@ -27,6 +27,14 @@
     {
       "path": ".claude/skills/vscode/SKILL.md",
       "hash": "0xa331cf3abdbd1c7b"
+    },
+    {
+      "path": ".prettierignore",
+      "hash": "0xca9871c5856573ee"
+    },
+    {
+      "path": ".prettierrc",
+      "hash": "0xf2be2549d1b502ae"
     },
     {
       "path": ".vscode/extensions.json",
