@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 - 2026-09-07
 
 - Add the shared Prettier configuration (`.prettierrc`, `.prettierignore`) to the layer.
 
