@@ -2,4 +2,4 @@
 // Kept in sync by test/dna_vscode_version.test.ts.
 
 /** The version of the `@ggdna/dna-vscode` package. */
-export const dnaVscodeVersion = '0.2.0';
+export const dnaVscodeVersion = '0.2.1';

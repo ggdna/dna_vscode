@@ -1,6 +1,6 @@
 name: dna_vscode
 description: "DNA layer: shared VS Code settings and recommended extensions"
-version: 0.2.0
+version: 0.2.1
 repository: https://github.com/ggdna/dna_vscode.git
 
 environment:
