@@ -1,3 +1,11 @@
+<!--
+@license
+Copyright (c) ggsuite
+
+Use of this source code is governed by terms that can be
+found in the LICENSE file in the root of this package.
+-->
+
 # dna_vscode
 
 The DNA layer for the editor: shared VS Code settings and recommended
