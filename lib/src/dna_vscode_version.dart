@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `dna_vscode` package.
-const String dnaVscodeVersion = '0.2.1';
+const String dnaVscodeVersion = '0.2.2';
