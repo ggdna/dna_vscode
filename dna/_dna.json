@@ -7,8 +7,8 @@
   // and is combined with other layers by the consumer.
   "layers": [],
 
-  // The copyright header names the organization, so it is never
-  // inherited: every layer listing this one sets dnaCopyrightHolder in
-  // its own dna/_vars.json.
-  "mustOverride": { "dnaCopyrightHolder": true }
+  // The copyright header and the psi-header author name the
+  // organization, so they are never inherited: every layer listing this
+  // one sets dnaCopyrightHolder and dnaCompany in its own dna/_vars.json.
+  "mustOverride": { "dnaCopyrightHolder": true, "dnaCompany": true }
 }

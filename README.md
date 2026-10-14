@@ -37,6 +37,10 @@ other layers by the consuming repo.
 - `dnaCopyrightHolder` — the name in the license header of every file
 - `dnaCompany` — the author name the license header template inserts
 
+They name the organization, so they are never inherited: every layer or
+project listing this one sets them in its own `dna/_vars.json`.
+`helix init` and `helix add` ask for the missing ones.
+
 ## Usage
 
 Declare it as a dev-dependency and initialize once:
