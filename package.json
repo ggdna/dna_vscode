@@ -1,7 +1,7 @@
 {
   "name": "@ggdna/dna-vscode",
   "version": "0.4.0",
-  "description": "DNA layer: shared VS Code settings and recommended extensions",
+  "description": "Gives a repo the shared VS Code settings, the Prettier configuration and the recommended extensions.",
   "keywords": [
     "dna",
     "helix",
