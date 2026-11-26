@@ -15,18 +15,18 @@ found in the LICENSE file in the root of this package.
 
 Read `doc/guides/vscode-guide.md` and follow it.
 
-## 1. Check the extensions
+## @extensions 1. Check the extensions
 
 List `.vscode/extensions.json` and compare against the extensions
 actually installed.
 
 Report every recommended extension that is missing.
 
-## 2. Check the settings
+## @settings 2. Check the settings
 
 Verify `.vscode/settings.json` parses as JSONC and that every
 `editor.defaultFormatter` it sets points at an installed extension.
 
-## 3. Report before fixing
+## @report 3. Report before fixing
 
 List the findings first. Install or fix only what the user confirms.
