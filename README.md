@@ -13,8 +13,14 @@ extensions.
 
 ## Guides
 
-- `dna/doc/guides/vscode-guide.md` — what is configured, how to add a
+- `dna/doc/en/guides/vscode-guide.md` — what is configured, how to add a
   setting or extension, and how a consumer overrides one
+
+Every file of `dna/doc/en/` also ships in German and Farsi, with the
+same name:
+
+- `dna/doc/de/guides/`
+- `dna/doc/fa/guides/`
 
 ## Skills
 
@@ -29,7 +35,7 @@ extensions.
 
 ## Publishing
 
-`dna/dot-pubignore` keeps `/doc/guides/` out of the package `dart pub publish`
+`dna/dot-pubignore` keeps `/doc/*/guides/` out of the package `dart pub publish`
 uploads. helix joins it with the ignore files of the other layers into the
 project's `.pubignore`.
 
