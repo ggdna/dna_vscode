@@ -1,4 +1,3 @@
-# dna_vscode
 # Ignore artifacts
 build
 coverage
@@ -35,3 +34,4 @@ pnpm-lock.yaml
 pubspec.lock
 
 tsconfig.json
+

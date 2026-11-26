@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.15.2",
+      "resolvedVersion": "1.16.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,15 +15,17 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x26ea2d7f71382005"
+      "hash": "0x29b7af8b13ad4da5"
     }
   ],
   "claude": {
     "claudeMdInclude": null,
-    "claudeMdFromDna": false
+    "claudeMdFromDna": false,
+    "blockHash": null
   },
-  "baseVersion": "1.15.2",
+  "baseVersion": "1.16.0",
   "baseHash": "0x6883da335b415f9d",
+  "configHash": "0xe70628005df0298b",
   "instances": [
     {
       "path": ".claude/skills/vscode/SKILL.md",
@@ -31,7 +33,7 @@
     },
     {
       "path": ".prettierignore",
-      "hash": "0x455407a39e11b3db"
+      "hash": "0x9e5afe8bbdb91467"
     },
     {
       "path": ".prettierrc",
@@ -39,7 +41,7 @@
     },
     {
       "path": ".pubignore",
-      "hash": "0xce6f0c039020bc23"
+      "hash": "0x7f52f02daa607801"
     },
     {
       "path": ".vscode/extensions.json",

@@ -11,7 +11,7 @@ found in the LICENSE file in the root of this package.
 The shared editor settings and recommended extensions every repo opens
 with.
 
-## What is configured
+## @configured What is configured
 
 - Format on save through Prettier, pinned to the workspace config so it
   never falls back to bundled defaults
@@ -22,20 +22,20 @@ with.
 - `dna/_dna.json` is associated with `jsonc`, so its comments do not show
   as errors
 
-## Add a setting
+## @setting Add a setting
 
 - Put it in `dna/dot-vscode/settings.json`, under the section comment it
   belongs to — add a new `// ####… \n// Name \n// ####…` section if none
   fits
 - State why in a comment when the setting is not self-explanatory
 
-## Add a recommended extension
+## @recommended Add a recommended extension
 
 - Add its id to `dna/dot-vscode/extensions.json`
 - Give it a matching setting in `settings.json` if it needs one, e.g. a
   `[language]`-scoped `editor.defaultFormatter`
 
-## Override in a consuming repo
+## @override Override in a consuming repo
 
 - A same-path `dna/dot-vscode/settings.json` in a later layer replaces
   this one whole
