@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.16.0",
+      "resolvedVersion": "1.18.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x29b7af8b13ad4da5"
+      "hash": "0x46884c4501b1446f"
     }
   ],
   "claude": {
@@ -23,17 +23,18 @@
     "claudeMdFromDna": false,
     "blockHash": null
   },
-  "baseVersion": "1.16.0",
+  "baseVersion": "1.18.0",
   "baseHash": "0x6883da335b415f9d",
   "configHash": "0xe70628005df0298b",
+  "gitignoreHash": "0x1b0ee74d5e941279",
   "instances": [
     {
       "path": ".claude/skills/vscode/SKILL.md",
-      "hash": "0xa331cf3abdbd1c7b"
+      "hash": "0x4bfd5794be24b99a"
     },
     {
       "path": ".prettierignore",
-      "hash": "0x9e5afe8bbdb91467"
+      "hash": "0x81844d6b0caa5b76"
     },
     {
       "path": ".prettierrc",
@@ -41,7 +42,7 @@
     },
     {
       "path": ".pubignore",
-      "hash": "0x7f52f02daa607801"
+      "hash": "0x0beb06fb042be82c"
     },
     {
       "path": ".vscode/extensions.json",
@@ -52,8 +53,16 @@
       "hash": "0x56f3eedd72c6218f"
     },
     {
-      "path": "doc/guides/vscode-guide.md",
+      "path": "doc/de/guides/vscode-guide.md",
+      "hash": "0x90af03be17b5cbad"
+    },
+    {
+      "path": "doc/en/guides/vscode-guide.md",
       "hash": "0x6776b27c7cbedb98"
+    },
+    {
+      "path": "doc/fa/guides/vscode-guide.md",
+      "hash": "0xf0136f9c27d0d7ba"
     }
   ]
 }
